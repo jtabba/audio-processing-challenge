@@ -3,7 +3,7 @@
 For use:
 
 1. Install dependencies
-2. Replace `directory` with the path to taregt audio files
+2. Replace `directory` with the path to target audio files
 3. Initialise processing via terminal `python3 index.py` while in the root of this directory
 
 Information
