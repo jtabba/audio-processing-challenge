@@ -85,8 +85,6 @@ if __name__ == '__main__':
     # Partition the files into groups of 4 for multiprocessing
     queue = list(partition(4, files))
 
-    print(queue)
-
     for files_batch in queue:
         p = Process(target=process_audio_files, args=(files_batch,))
         p.start()
